@@ -1,7 +1,16 @@
-@import"_header";
-
-h1{
-    color: rgba(182, 223, 179, 0.562);
+@import "_header";
+@import "_items";
+@import "_items_2";
+@import "_text";
+a:hover{
+    color: red;
+}
+main h2:nth-of-type(2){
+    color: chocolate;
+}
+h1,
+h2{
+    color: rgba(238, 81, 9, 0.801);
 }
 body{
     font-size: 30px;
@@ -10,12 +19,23 @@ body{
     }
 }
 .block {
-    color: blanchedalmond;
+    color: rgb(148, 119, 77);
     }
     .block__item {
-        color: aquamarine;
+        color: rgb(125, 201, 175);
     }
 .red{
-    color: red;
+    color: rgb(194, 33, 33);
+}
+p {
+    font-size: 20px;
+    color: rgb(94, 94, 94);
+}
+.about-heading{
+    color: rgb(240, 17, 17);    
+}
+.important-text{
+    color: #000;
+    font-weight: 700;
 }
 

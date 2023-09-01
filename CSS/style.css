@@ -2,17 +2,84 @@ header {
   background-color: #d1b4f1;
 }
 
-h1 {
-  color: rgba(182, 223, 179, 0.562);
+header a:nth-child(2) {
+  color: rgb(64, 216, 25);
+}
+
+.items tbody tr:nth-of-type(odd) {
+  background-color: rgb(252, 198, 128);
+}
+
+.items th,
+.items td {
+  width: 300px;
+  height: 50px;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.items {
+  border-collapse: collapse;
+}
+
+.items_2 tbody tr:nth-of-type(2n) {
+  background-color: rgb(146, 252, 194);
+}
+
+.name-text {
+  font-weight: bold;
+}
+
+.prof-text {
+  color: rgb(201, 29, 29);
+}
+
+.city-text {
+  font-style: italic;
+}
+
+a:hover {
+  color: red;
+}
+
+main h2:nth-of-type(2) {
+  color: chocolate;
+}
+
+h1,
+h2 {
+  color: rgba(238, 81, 9, 0.801);
 }
 
 body {
-  font-size: 20px;
+  font-size: 30px;
 }
 body div {
   font-size: 10px;
 }
 
-.block .red {
-  color: red;
+.block {
+  color: rgb(148, 119, 77);
+}
+
+.block__item {
+  color: rgb(125, 201, 175);
+}
+
+.red {
+  color: rgb(194, 33, 33);
+}
+
+p {
+  font-size: 20px;
+  color: rgb(94, 94, 94);
+}
+
+.about-heading {
+  color: rgb(240, 17, 17);
+}
+
+.important-text {
+  color: #000;
+  font-weight: 700;
 }
